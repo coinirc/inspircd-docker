@@ -15,15 +15,15 @@
 # Default variables
 cat <<EOF
 # Network section
-<define name="hostname" value="${HOSTNAME:-irc}">
-<define name="netsuffix" value="${INSP_NET_SUFFIX:-.example.com}">
-<define name="netname" value="${INSP_NET_NAME:-Omega}">
+<define name="hostname" value="${HOSTNAME:-coinirc}">
+<define name="netsuffix" value="${INSP_NET_SUFFIX:-.coinirc.com}">
+<define name="netname" value="${INSP_NET_NAME:-CoinIRC}">
 <define name="servername" value="${INSP_SERVER_NAME:-&hostname;&netsuffix;}">
 
 # Admin section
-<define name="adminname" value="${INSP_ADMIN_NAME:-Jonny English}">
-<define name="adminnick" value="${INSP_ADMIN_NICK:-MI5}">
-<define name="adminemail" value="${INSP_ADMIN_EMAIL:-jonny.english@example.com}">
+<define name="adminname" value="${INSP_ADMIN_NAME:-CoinIRC crew}">
+<define name="adminnick" value="${INSP_ADMIN_NICK:-circ}">
+<define name="adminemail" value="${INSP_ADMIN_EMAIL:-circ@tutanota.com}">
 
 # Connect block section
 <define name="usednsbl" value="${INSP_ENABLE_DNSBL:-yes}">
