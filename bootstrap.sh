@@ -49,4 +49,4 @@ else
 fi
 
 # shellcheck disable=SC2086
-$SUDO docker run $RUNPARAM inspircd/inspircd-docker
+$SUDO docker run $RUNPARAM coinirc/inspircd-docker
